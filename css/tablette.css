@@ -1,0 +1,384 @@
+@media all and (min-width: 768px) and (max-width: 992px) {
+  body {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  main {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* Header */
+
+  .logo img {
+    padding-top: 7px;
+    width: 150px;
+  }
+
+  nav li a {
+    font-size: 19px;
+  }
+
+  /* Barre de recherche */
+
+  .bloc_recherche h1 {
+    margin: 25px 50px 0 20px;
+    font-size: 24px;
+  }
+
+  .bloc_recherche p {
+    margin: 15px 20px 30px 20px;
+    font-size: 19px;
+  }
+
+  form {
+    margin: 25px 20px 25px 20px;
+    height: 55px;
+    width: 60%;
+    border-radius: 15px;
+  }
+
+  input {
+    width: auto;
+  }
+
+  #button_search {
+    border-radius: 0 14px 14px 0;
+    height: 100%;
+    width: 50%;
+    font-size: 20px;
+  }
+
+  #button_map {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 22px;
+    border-radius: 13px 0 0 13px;
+  }
+
+  #zone_txt {
+    width: 100%;
+    text-align: start;
+    align-self: center;
+    margin: 1px 0px 0px 10px;
+  }
+
+  #zone_txt::placeholder {
+    font-size: 20px;
+  }
+
+  /* Filtres */
+
+  #container_filtres,
+  #liens_filtres ul {
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #container_filtres h2 {
+    font-size: 18px;
+    margin: 0px 0px 5px 20px;
+  }
+
+  #liens_filtres li {
+    font-size: 17px;
+    height: 52px;
+    margin: 12px 5px 0px 15px;
+  }
+
+  #liens_filtres span {
+    margin-left: 10px;
+  }
+
+  #liens_filtres i {
+    margin: 0px 0px 0px 0px;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+  }
+
+  #container_info .fas.fa-info {
+    width: 25px;
+  }
+
+  #txt_msg span {
+    text-align: start;
+    flex-wrap: wrap;
+    font-size: 17px;
+    font-weight: 350;
+    margin: 15px 0px 0px 0px;
+  }
+
+  /* Section Populaires */
+
+  .container-populaires {
+    margin: 0;
+    order: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+
+  .bloc-PopColumn {
+    margin: 0px 10px 30px 10px;
+    flex-direction: row;
+  }
+
+  .cards-populaires {
+    margin: 10px 5px 0px 5px;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 250px;
+    padding: 0;
+  }
+
+  .img-populaires1,
+  .img-populaires2,
+  .img-populaires3 {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 60%;
+  }
+
+  .title-populaires {
+    margin-top: 15px;
+  }
+
+  .title-populaires i {
+    margin: 4px 25px 0px 0px;
+    font-size: 23px;
+  }
+
+  .title-populaires h3 {
+    margin: 15px 20px 10px 20px;
+  }
+
+  .details-populaires {
+    padding: 5px 0 0 15px;
+    width: 100%;
+  }
+
+  .details-populaires h4 {
+    font-size: 18px;
+    margin: 5px 0 5px 0;
+  }
+
+  a:nth-last-child(1) .details-populaires p,
+  a:nth-last-child(3) .details-populaires p {
+    font-size: 15px;
+    margin: 10px 0 20px 0;
+  }
+
+  a:nth-last-child(2) .details-populaires p {
+    font-size: 15px;
+    margin: 0 0 6px 0;
+  }
+
+  .details-populaires .stars {
+    margin: 0;
+  }
+
+  /* Section hébergements */
+
+  #hebergements {
+    flex-direction: column;
+  }
+
+  #container-hebergements {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    order: 2;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #container-hebergements h3 {
+    margin: 20px 0px 20px 20px;
+  }
+
+  .bloc1,
+  .bloc2 {
+    flex-direction: row;
+    margin: 0px 10px 20px 10px;
+  }
+
+  .cards-hebergements {
+    width: 100%;
+    height: 260px;
+    margin: 0px 5px 0px 5px;
+    box-shadow: 2px 2px 5px 1px #e2e2e2;
+  }
+
+  .cards-hebergements h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .AfficherPlus {
+    font-size: 18px;
+  }
+
+  .img-hebergements1,
+  .img-hebergements2,
+  .img-hebergements3,
+  .img-hebergements4,
+  .img-hebergements5,
+  .img-hebergements6 {
+    height: 65%;
+    width: 100%;
+  }
+
+  .details-hebergements {
+    margin: 5px 20px 10px 10px;
+  }
+
+  .details-hebergements h4 {
+    font-size: 18px;
+  }
+
+  .details-hebergements p {
+    margin: 10px 0 15px 0;
+    font-size: 14px;
+  }
+
+  /* Activités */
+
+  #activites {
+    height: auto;
+    width: auto;
+    margin: 0px 20px 0px 20px;
+  }
+
+  #activites h3 {
+    margin: 35px 0px 30px 0px;
+    font-size: 20px;
+  }
+
+  .bloc-activites {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 1500px;
+  }
+
+  .bloc-activites-small {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .cards-activites {
+    width: 100%;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .cards-activites-small {
+    width: 50%;
+    height: 170px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .bloc-activites-small:nth-child(2) .cards-activites-small:nth-child(1) {
+    width: 43%;
+    height: 300px;
+  }
+
+  .bloc-activites-small:nth-child(2) .cards-activites-small:nth-child(2) {
+    width: 55%;
+    height: 300px;
+  }
+
+  .bloc-activites-small:nth-child(4) .cards-activites-small:nth-child(1) {
+    width: 55%;
+    height: 300px;
+  }
+
+  .bloc-activites-small:nth-child(4) .cards-activites-small:nth-child(2) {
+    width: 43%;
+    height: 300px;
+  }
+
+  .img-activites2,
+  .img-activites3,
+  .img-activites5,
+  .img-activites6 {
+    height: 250px;
+    width: 100%;
+  }
+
+  .img-activites5 {
+    height: 245px;
+  }
+
+  .img-activites1,
+  .img-activites4 {
+    width: 100%;
+    height: 350px;
+  }
+
+  .cards-activites h4,
+  .cards-activites-small h4 {
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .cards-activites .details-activites {
+    padding-left: 10px;
+  }
+
+  .bloc-activites-small:nth-child(2) .details-activites {
+    padding-left: 20px;
+  }
+
+  .bloc-activites-small:nth-child(4) .details-activites {
+    padding-left: 18px;
+  }
+
+  /* Footer */
+
+  .container-footer {
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto;
+    margin: 22px 0px 0px 0px;
+  }
+
+  .bloc-footer1,
+  .bloc-footer2,
+  .bloc-footer3 {
+    width: 100%;
+    margin: 15px 0px 15px 25px;
+  }
+
+  .bloc-footer1 h4,
+  .bloc-footer2 h4,
+  .bloc-footer3 h4 {
+    margin: 10px 0px 5px 0px;
+    font-size: 20px;
+  }
+
+  .bloc-footer1 ul,
+  .bloc-footer2 ul,
+  .bloc-footer3 ul {
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+  }
+
+  .bloc-footer1 li,
+  .bloc-footer2 li,
+  .bloc-footer3 li {
+    margin: 15px 0 15px 0;
+  }
+}
