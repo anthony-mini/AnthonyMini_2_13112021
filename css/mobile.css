@@ -333,6 +333,12 @@
     margin: 22px 0px 0px 0px;
   }
 
+  .bloc-activites,
+  .bloc-activites-small {
+    flex-direction: column;
+    justify-content: normal;
+  }
+
   .bloc-footer1,
   .bloc-footer2,
   .bloc-footer3 {
