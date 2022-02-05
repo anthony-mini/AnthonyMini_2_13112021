@@ -19,9 +19,7 @@ W3C. La partie recherche ne doit pas être fonctionnelle.</li>
 son intégralité (pas uniquement le titre). Pour l’instant, les liens sont
 vides. On peut utiliser un attribut `href=”#”` pour simuler la
 présence d’un lien.</li>
-    <li> Les filtres doivent changer d’apparence au survol. Je te laisse décider
-de l’effet approprié, je n’ai pas encore eu le temps de me pencher
-dessus. Par contre, ils ne doivent pas être fonctionnels.</li>
+    <li> Les filtres doivent changer d’apparence au survol. Par contre, ils ne doivent pas être fonctionnels.</li>
     <li> Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont
 des liens. Ils doivent mener respectivement vers la section
 “Hébergements à Marseille” et “Activités à Marseille”. </li>
