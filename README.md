@@ -1,7 +1,7 @@
 # AnthonyMini_2_13112021
 <h1 text-align="center"> Projet 2 : OpenClassrooms - Booki <br>  Transformez une maquette en site web avec HTML & CSS ! 🚀 </h1>
 <p>  <strong>Published</strong> at https://anthony-mini.github.io/AnthonyMini_2_13112021/ </p>
-<p> <strong> View in Codespaces : <strong>  https://github.dev/anthony-mini/AnthonyMini_2_13112021 </p>
+<p> <strong> View in Codespaces : </strong>  https://github.dev/anthony-mini/AnthonyMini_2_13112021 </p>
 
 <h2> Compétences visées </h2>
 <ul>
